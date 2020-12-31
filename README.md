@@ -10,7 +10,7 @@
 
 <center>
 
-->![](image/CPA.jpg)<-
+![](image/CPA.jpg)
 
 </center>
 
