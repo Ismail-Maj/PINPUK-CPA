@@ -1,0 +1,55 @@
+#alias y
+#set y ff
+#
+#say -s "fichier brol"
+#
+#alias x[%d20]
+#
+
+alias index
+set index 10
+
+macro toto
+say -d $index
+set index $index-1
+if ($index>0) call toto
+end
+
+call toto
+
+
+macro loopp
+if (($e & $m)== $m) set r $r*$a
+set a $a*$a
+set m $m*2
+if ($m<=$e) call loopp
+end
+
+macro puiss
+set r 1
+set m 1
+call loopp
+say -d $r
+end
+
+alias e[8]
+alias m[8]
+alias r[8]
+alias a[10]
+
+set a 2
+set e %d32
+call puiss
+
+
+
+#
+#random x
+#say  $x
+#
+#"end
+#
+#call toto
+
+exit
+

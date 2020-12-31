@@ -1,0 +1,17 @@
+a0 40 00 00 08 ff ff ff ff ff ff ff ff
+a0 20 00 00 08 aa aa aa aa aa aa aa aa
+a0 20 00 00 08 00 00 00 00 00 00 00 00 
+a0 24 00 00 10 ff 00 00 00 00 00 00 00 aa aa aa aa aa aa aa aa
+a0 24 00 00 10 00 00 00 00 00 00 00 00 aa aa aa aa aa aa aa aa
+reset
+a0 24 00 00 10 00 00 00 00 00 00 00 00 aa aa aa aa aa aa aa aa
+a0 20 00 00 08 aa aa aa aa aa aa aa aa
+reset
+a0 20 00 00 08 11 11 11 11 11 11 11 11
+a0 20 00 00 08 11 11 11 11 11 11 11 11
+a0 20 00 00 08 11 11 11 11 11 11 11 11
+a0 24 00 00 10  aa aa aa aa aa aa aa aa 00 00 00 00 00 00 00 00
+a0 2c 00 00 10 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 aa
+a0 20 00 00 08 aa aa aa aa aa aa aa aa
+a0 24 00 00 10 aa aa aa aa aa aa aa aa 00 00 00 00 00 00 00 00
+a0 20 00 00 08 00 00 00 00 00 00 00 00
